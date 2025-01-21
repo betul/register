@@ -1,0 +1,16 @@
+{
+  "measurements": [
+    {
+      "id": "438f",
+      "data": {
+        "height": "170cm",
+        "weight": "90kg",
+        "ratio": "0.53"
+      },
+      "timestamp": "2025-01-21T10:06:43.091Z"
+    }
+  ],
+  "schedules": [],
+  "goals": [],
+  "users": []
+}

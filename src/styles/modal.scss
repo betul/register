@@ -1,0 +1,46 @@
+@use "variables" as v;
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+
+  h2 {
+    color: v.$text-color;
+    margin: 20px 0 10px;
+    font-size: 24px;
+  }
+
+  p {
+    color: v.$input-text-color;
+    margin-bottom: 30px;
+  }
+}
+
+.success-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  color: white;
+  font-size: 36px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}

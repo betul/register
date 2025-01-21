@@ -1,0 +1,16 @@
+@use "variables";
+@use "base";
+@use "form-container";
+@use "form-elements";
+@use "buttons";
+@use "lists";
+@use "modal";
+
+$background-color: #e8e8ff;
+$text-color: #183137;
+$input-text-color: #666666;
+$button-back-color-deactive: #d0cfff;
+$button-next-color: #4140e6;
+$button-back-color: #4140e6;
+$button-text-color: #ffffff;
+$box-shadow-color: rgba(0, 0, 0, 0.05);
