@@ -71,12 +71,64 @@ npm run test:watch
 
 The mock API server runs on `http://localhost:3001` with the following endpoints:
 
-\`\`\`
-GET/POST /measurements - Manage physical measurements
-GET/POST /schedules - Handle workout schedules
-GET/POST /goals - Track fitness goals
-GET/POST /users - User management
-\`\`\`
+### Endpoints
+
+#### Measurements
+- **POST** `/measurements`
+  - Save new measurements
+  
+    ```json
+    {
+      "data": {
+        "height": "string",
+        "weight": "string",
+        "ratio": "string"
+      }
+    }
+    ```
+
+#### Schedules
+
+
+- **POST** `/schedules`
+  - Save workout schedule
+
+    ```json
+    {
+      "data": {
+        "selectedDays": ["string"]
+      }
+    }
+    ```
+
+#### Goals
+
+
+- **POST** `/goals`
+  - Save fitness goal
+     ```json
+    {
+      "data": {
+        "goal": "string"
+      }
+    }
+    ```
+
+#### Users
+
+
+- **POST** `/users`
+  - Create new user
+     ```json
+    {
+      "data": {
+        "email": "string",
+        "password": "string",
+        "fullName": "string",
+        "surname": "string"
+      }
+    }
+    ```
 
 ## Project Structure
 
